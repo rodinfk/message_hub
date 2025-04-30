@@ -1,0 +1,31 @@
+api_id: 27074211
+api_hash: 'ad183b1c187f038e2ffb8540e157393b'
+bot_token: '8170649731:AAHIdJZxqykYtr3XquSB98eLo6YBuTqRZFM'
+admin_chat_id: 387120921
+message_settings:
+  info_message_first: true  # Инфо-сообщение всегда первое
+  max_album_wait: 2         # Макс. время ожидания частей альбома (сек)
+
+chat_groups:
+  important:
+    keywords: [важно, Никита]
+    chats: [-4661254105]  # Ваш тестовый чат
+  products:
+    keywords: [Никита, важно]
+    chats: [-4664590113]  # Доп. чат (замените на реальный)
+
+# Опциональные параметры
+log_level: INFO
+rate_limit: 30  # Макс. сообщений/мин
+queue_size: 1000
+
+media_handling:
+  max_media_group_size: 10
+
+bot_rights:
+  can_read_history: true
+  can_send_media: true
+
+media:
+  album_search_range: 20  # Диапазон поиска сообщений альбома
+  max_attempts: 3        # Максимальное количество попыток пересылки
