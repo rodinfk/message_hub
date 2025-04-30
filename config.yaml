@@ -9,10 +9,10 @@ message_settings:
 chat_groups:
   important:
     keywords: [важно, Никита]
-    chats: [-4661254105]  # Ваш тестовый чат
+    chats: [-4661254105] 
   products:
     keywords: [Никита, важно]
-    chats: [-4664590113]  # Доп. чат (замените на реальный)
+    chats: [-4664590113] 
 
 # Опциональные параметры
 log_level: INFO
